@@ -76,4 +76,4 @@ This framework :
 - Is **NOT** unit-tested ! 
 - Is **no longer** maintained since **2018** !
 - **Does not** take in consideration newer implementations, architectures or changes and updates that were brought to the Android plateform since **2018** !
-- **Does not** guarantee a correct function with any Android application, as many are written in different languages and using different platforms (Kotlin, Web, Xamarin ...) !
+- **Does not** guarantee a correct functioning with all Android application, as many are written in different languages and using different platforms (Kotlin, Web, Xamarin ...) !
