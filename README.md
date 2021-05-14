@@ -6,13 +6,13 @@ Rimaz is a tool that helps analyze the byte code of Android applications written
 This is an experimentation version of the **Rimaz** Tool.
 Rimaz is an Arabic word that means "code" like in "source code", written in Arabic: **رِماز** or **الرِّماز**
 
-Rimaz is a tool that provides :
-- The detection of Android application main components, such as *Custom UIElements* (Views), *Activities*, *Fragments*, *Dialogs*, *Application* classes etc. ;
-- The detection of Android application Input events, including :   
+Rimaz is a tool that helps detect out of the apk file :
+- The main components, such as *Custom UIElements* (Views), *Activities*, *Fragments*, *Dialogs*, *Application* classes etc. ;
+- The Input events, including :   
 	- **Listener based** input events;   
 	- Life cycle and non life cycle **Event handlers**;
-- The detection of *Model entities* that might be used in an Android application;
-- The detection of the dominant presentation layer architectural style that is used in an Android application including (**MVC**, **MVP**, **MVVM**);
+- *Model entities* that might be used in an Android application;
+- Principally, the dominant presentation layer architectural style that is used in an Android application including (**MVC**, **MVP**, **MVVM**);
 
 Rimaz uses [SOOT](https://github.com/Sable/soot) framework on parse Android applications bytecode, for this reason, Rimaz needs some components related to SOOT to perform its analyses, such as [Android platforms](https://github.com/Sable/soot/wiki/Instrumenting-Android-Apps-with-Soot).
 
