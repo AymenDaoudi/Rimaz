@@ -1,12 +1,13 @@
 
 # Rimaz
+Rimaz is a tool that helps analyze the byte code of Android applications written in Java.
 
 ## Introduction
 This is an experimentation version of the **Rimaz** Tool.
 Rimaz is an Arabic word that means "code" like in "source code", written in Arabic: **رِماز** or **الرِّماز**
 
 Rimaz is a tool that provides :
- - The detection of Android application main components, such as *Custom UIElements* (Views), *Activities*, *Fragments*, *Dialogs*, *Application* classes etc. ;
+- The detection of Android application main components, such as *Custom UIElements* (Views), *Activities*, *Fragments*, *Dialogs*, *Application* classes etc. ;
 - The detection of Android application Input events, including :   
 	- **Listener based** input events;   
 	- Life cycle and non life cycle **Event handlers**;
@@ -71,5 +72,8 @@ Our analyses were conducted on a set of Android applications downloaded from Goo
 This [list](https://github.com/TheRimaz/Rimaz/blob/master/TheApplicationDataSet.csv) contains more than 5000 applications that we downloaded randomly from Google Play Store along with the metadata used for the analyses.
 
 ## Caution
-This framework is not unit-tested. It is also not maintained, it doesn't not take in consideration newer implementations, architectures or changes and updates that were brought to the Android plateform since its publishing date.
-It does not guarantee a correct function with any Android application, as many are written in different languages and using different platforms (Kotlin, Web, Xamarin ...).
+This framework :
+- Is **NOT** unit-tested ! 
+- Is **no longer** maintained since **2018** !
+- **Does not** take in consideration newer implementations, architectures or changes and updates that were brought to the Android plateform since **2018** !
+- **Does not** guarantee a correct function with any Android application, as many are written in different languages and using different platforms (Kotlin, Web, Xamarin ...) !
