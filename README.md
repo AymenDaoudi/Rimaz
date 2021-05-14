@@ -3,7 +3,7 @@
 
 ## Introduction
 This is an experimentation version of the **Rimaz** Tool.
-Rimaz is an Arabic word that means "code" like in "source code" , written in Arabic : **رِماز** or **الرِّماز**
+Rimaz is an Arabic word that means "code" like in "source code", written in Arabic: **رِماز** or **الرِّماز**
 
 Rimaz is a tool that provides :
  - The detection of Android application main components, such as *Custom UIElements* (Views), *Activities*, *Fragments*, *Dialogs*, *Application* classes etc. ;
@@ -13,7 +13,13 @@ Rimaz is a tool that provides :
 - The detection of *Model entities* that might be used in an Android application;
 - The detection of the dominant presentation layer architectural style that is used in an Android application including (**MVC**, **MVP**, **MVVM**);
 
-Rimaz uses [SOOT](https://github.com/Sable/soot) framework on parse Android applications bytecode, for this reason, Rimaz needs some components related to SOOT to perform its analyses, such as [Android platforms](https://github.com/Sable/soot/wiki/Instrumenting-Android-Apps-with-Soot)
+Rimaz uses [SOOT](https://github.com/Sable/soot) framework on parse Android applications bytecode, for this reason, Rimaz needs some components related to SOOT to perform its analyses, such as [Android platforms](https://github.com/Sable/soot/wiki/Instrumenting-Android-Apps-with-Soot).
+
+Rimaz was buit as part of my master's degree at [Université du Québec À Montréal](https://uqam.ca/), you can read more about it in the [thesis](https://archipel.uqam.ca/12399/1/M15948.pdf).
+
+You can also read more about the study, Rimaz and the conducted experiments in this published [research paper](https://www.researchgate.net/publication/332813894_An_exploratory_study_of_MVC-based_architectural_patterns_in_Android_apps).
+
+![alt text](https://github.com/AymenDaoudi/Rimaz/blob/master/ResearchPaperSnapshot.jpg?raw=true "Logo Title Text 1")
 
 ## Using Rimaz
 
@@ -63,3 +69,7 @@ To asses our tool, we tested it on a set of opensource applications and we valid
 Our analyses were conducted on a set of Android applications downloaded from Google Play Store.
 
 This [list](https://github.com/TheRimaz/Rimaz/blob/master/TheApplicationDataSet.csv) contains more than 5000 applications that we downloaded randomly from Google Play Store along with the metadata used for the analyses.
+
+## Caution
+This framework is not unit-tested. It is also not maintained, it doesn't not take in consideration newer implementations, architectures or changes and updates that were brought to the Android plateform since its publishing date.
+It does not guarantee a correct function with any Android application, as many are written in different languages and using different platforms (Kotlin, Web, Xamarin ...).
