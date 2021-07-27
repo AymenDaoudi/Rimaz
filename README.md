@@ -2,6 +2,8 @@
 # Rimaz
 Rimaz is a tool that helps analyze the byte code of Android applications written in Java.
 
+![alt text](https://github.com/AymenDaoudi/Rimaz/blob/master/Rimaz.png?raw=true "Rimaz Logo")
+
 ## Introduction
 This is an experimentation version of the **Rimaz** Tool.
 Rimaz is an Arabic word that means "code" like in "source code", written in Arabic: **رِماز** or **الرِّماز**
